@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>ContactBook</h3>
+    <div class="wrapper">
+      <div class="container">
+        <div class="auth-form">
+          <div class="field">
+            <span>Name</span>
+            <input type="text" id="inp-name" />
+            <span>Surname</span>
+            <input type="text" id="inp-Email" />
+            <span>Numbers</span>
+            <input type="text" id="inp-Number" />
+            <span>ImgUrl</span>
+            <input type="text" id="inp-ImgUrl" />
+          </div>
+          <div class="field">
+            <button id="btn-add">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- addForm end -->
+    <!-- listStart -->
+    <div id="list"></div>
+    <!-- list end -->
+    <!-- modalStart -->
+    <div id="modal-edit">
+      <div id="modal-edit-body">
+        <button id="modal-edit-close">Close</button>
+        <div id="modal-edit-inps">
+          <input type="text" id="inp-edit-name" />
+          <input type="text" id="inp-edit-Email" />
+          <input type="text" id="inp-edit-Number" />
+          <input type="text" id="inp-edit-ImgUrl" />
+          <button id="btn-save-edit">Save</button>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
